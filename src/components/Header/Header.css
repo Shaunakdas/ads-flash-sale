@@ -14,20 +14,24 @@
 }
 
 .root {
-  background: #373277;
-  color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #42b549;
+  z-index: 1002;
+  padding: 10px 30px 10px 10px;
+  color: #ffffff;
 }
 
 .container {
   margin: 0 auto;
-  padding: 20px 0;
-  max-width: var(--max-content-width);
 }
 
 .brand {
   color: color(var(--brand-color) lightness(+10%));
   text-decoration: none;
-  font-size: 1.75em; /* ~28px */
+  font-size: 28px; /* ~28px */
+  float: left;
 }
 
 .brandTxt {
