@@ -17,8 +17,10 @@ class SalesPage extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1>{this.props.title}</h1>
-          <HeaderBox />
-          <StatusBox />
+          <div className={s.top}>
+            <HeaderBox />
+            <StatusBox />
+          </div>
           <DetailBox />
         </div>
       </div>
