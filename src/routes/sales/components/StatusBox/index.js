@@ -7,7 +7,19 @@ class StatusBox extends React.Component {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          {'StatusBox'}
+          <div className={s.top}>
+          </div>
+          <div className={s.bottom}>
+            <div className={s.statusTitle}>
+              {'Proses pengajuan produk'}
+            </div>
+            <div className={s.statusDescription}>
+              {'Pilih produk-produk yang Anda ingin ajukan dalam campaign'}
+            </div>
+            <div className={s.statusButton}>
+              {'Ajukan Produk'}
+            </div>
+          </div>
         </div>
       </div>
     );
