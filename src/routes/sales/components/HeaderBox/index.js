@@ -14,7 +14,24 @@ class HeaderBox extends React.Component {
               src={saleIconUrl}
               alt="React"
             />
-            {'HeaderBox'}
+            <div className={s.campaignTitleBox}>
+              <div className={s.campaignType}>
+                {'Sprint Sale'}
+              </div>
+              <div className={s.campaignTitle}>
+                <div className={s.campaignTitleText}>
+                  {'Everyday is Payday'}
+                </div>
+                <div className={s.campaignStatus}>
+                  <div className={s.campaignStatusOval} />
+                  <div className={s.campaignStatusText}>
+                    {'Pembayaran'}
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            
           </div>
           <div className={s.divider}></div>
           <div className={s.bottom}></div>
