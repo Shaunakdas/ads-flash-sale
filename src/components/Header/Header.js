@@ -28,7 +28,7 @@ class Header extends React.Component {
               height="30"
               alt="React"
             />
-            <span className={s.brandTxt}>TopAds</span>
+            <span className={s.brandTxt}>Flash Sale</span>
           </Link>
         </div>
       </div>

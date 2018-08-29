@@ -11,13 +11,17 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import Page from '../../components/Page';
 import about from './about.md';
+import SalesPage from './SalesPage';
+
+const title = 'Flash Sale';
 
 function sales() {
   return {
     chunks: ['about'],
-    title: 'Flash Sales',
+    title: 'Flash Sale',
     component: (
       <Layout>
+        <SalesPage title={title} />
         <Page {...about} />
       </Layout>
     ),
