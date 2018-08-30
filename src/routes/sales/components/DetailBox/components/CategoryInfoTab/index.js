@@ -5,6 +5,7 @@ import Description from './components/Description';
 import ProductCriteria from './components/ProductCriteria';
 import PromoInfo from './components/PromoInfo';
 import ShopCriteria from './components/ShopCriteria';
+import TermsList from './components/TermsList';
 
 class CategoryInfoTab extends React.Component {
   render() {
@@ -16,10 +17,13 @@ class CategoryInfoTab extends React.Component {
             <PromoInfo/>
           </div>
           <div className={s.row}>
+            <ShopCriteria />
+          </div>
+          <div className={s.row}>
             <ProductCriteria />
           </div>
           <div className={s.row}>
-            <ShopCriteria />
+            <TermsList />
           </div>
         </div>
       </div>

@@ -1,0 +1,29 @@
+
+
+
+.root {
+  padding-left: 0px;
+  padding-right: 0px;
+  flex: 7;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  display: block;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+  color: rgba(0, 0, 0, 0.38);
+  padding-bottom: 14px;
+}
+
+.detail {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(0, 0, 0, 0.7);
+}
+  
