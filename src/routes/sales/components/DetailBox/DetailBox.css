@@ -2,12 +2,10 @@
 
 
 .root {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 40px;
   }
   
   .container {
     margin: 0 auto;
-    padding: 0 0 40px;
   }
   

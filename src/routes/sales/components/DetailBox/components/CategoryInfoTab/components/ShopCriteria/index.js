@@ -1,18 +1,17 @@
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './DetailBox.css';
-import CategoryInfoTab from './components/CategoryInfoTab';
+import s from './ShopCriteria.css';
 
-class DetailBox extends React.Component {
+class ShopCriteria extends React.Component {
   render() {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <CategoryInfoTab />
+          {'ShopCriteria'}
         </div>
       </div>
     );
   }
 }
 
-export default withStyles(s)(DetailBox);
+export default withStyles(s)(ShopCriteria);

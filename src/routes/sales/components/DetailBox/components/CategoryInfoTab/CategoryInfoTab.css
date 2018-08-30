@@ -1,0 +1,26 @@
+
+
+
+.root {
+  padding-top: 30px;
+  padding-right: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  display: block;
+}
+
+.row {
+  display: flex;
+}
+
+.description {
+  flex: 7;
+}
+
+.promoInfo {
+  flex: 4;
+}
+  

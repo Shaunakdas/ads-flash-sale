@@ -1,0 +1,60 @@
+
+
+
+.root {
+  padding-left: 40px;
+  padding-right: 0px;
+  flex: 4;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.contentBox {
+  margin-top: 16px;
+  padding: 20px 0;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+}
+
+.leftContent {
+  display: block;
+  justify-content: center;
+  flex : 1;
+}
+
+.divider {
+  width: 1px;
+  height: 32px;
+  background-color: #e0e0e0;
+}
+
+.rightContent {
+  display: block;
+  justify-content: center;
+  flex : 1;
+}
+
+.itemTitle {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.38);
+  font-size: 12px;
+}
+
+.itemValue {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
