@@ -1,6 +1,7 @@
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './ProductListTab.css';
+import ProductRow from './components/ProductRow';
 
 class ProductListTab extends React.Component {
   render() {
@@ -36,6 +37,7 @@ class ProductListTab extends React.Component {
               </div>
             </div>
           </div>
+          <ProductRow />
         </div>
       </div>
     );

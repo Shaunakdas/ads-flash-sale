@@ -1,0 +1,79 @@
+
+
+
+.root {
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 112px;
+  background-color: #ffffff;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  padding: 16px 20px;
+}
+
+.mainImage {
+  width: 80px;
+  height: 80px;
+  flex: 0;
+  flex-basis: auto;
+}
+
+.detailCell {
+  flex: 1;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+}
+
+.title {
+  font-family: OpenSans;
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.detailRow {
+  padding-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 32px;
+}
+
+.detailItem {
+  direction: flex;
+}
+
+.detail {
+  flex-basis: auto;
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+  direction: flex;
+  flex-direction: row;
+}
+
+.star {
+  margin-top: auto;
+}
+
+.statusButton {
+  height: 32px;
+  width: 92px;
+  border-radius: 4px;
+  background-color: #42b549;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}
+
+.textBox {
+  font-family: OpenSans;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 0.5px #e0e0e0;
+}
