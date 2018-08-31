@@ -22,7 +22,6 @@ function sales() {
     component: (
       <Layout>
         <SalesPage title={title} />
-        <Page {...about} />
       </Layout>
     ),
   };

@@ -2,7 +2,7 @@
 
 
 .root {
-  width: 308px;
+  flex: 308;
   height: 220px;
   border-radius: 4px;
   background-color: #ffffff;
