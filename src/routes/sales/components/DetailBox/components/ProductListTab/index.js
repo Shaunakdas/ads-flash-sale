@@ -7,7 +7,35 @@ class ProductListTab extends React.Component {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          {'ProductListTab'}
+          <div className={s.headerRow}>
+            <div className={s.submitSelectorList}>
+              <div className={s.submitSelector}>
+                <div className={s.submitSelectorText}>
+                  {'Diajukan'}
+                </div>
+              </div>
+              <div className={s.submitSelector}>
+                <div className={s.submitSelectorText}>
+                  {'Belum Diajukan'}
+                </div>
+              </div>
+            </div>
+            <div className={s.filterComponentList}>
+              <div className={s.categoryTitle}>
+                {'Kategori:'}
+              </div>
+              <div className={s.categoryFilter}>
+                <div className={s.categoryFilterText}>
+                  {'Semua Kategori'}
+                </div>
+              </div>
+              <div className={s.searchBox}>
+                <div className={s.searchBoxText}>
+                  {'Cari'}
+                  </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
