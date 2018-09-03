@@ -28,7 +28,7 @@ class DetailBox extends React.Component {
               { key: 1, text: 'Daftar Produk' },
             ]}
             indexActive={this.state.activeTabIndex}
-            onItemClick={this.handleChangeTab}
+            onItemClick={this.handleTabChange}
           >
             <TabContent>
               <CategoryInfoTab />
